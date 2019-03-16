@@ -10,6 +10,10 @@ const commandsRaw = [
     {
         name: 'typescript',
         execute: 'node build/typescript.js'
+    },
+    {
+        name: 'c',
+        execute: 'build/c'
     }
 ]
 
