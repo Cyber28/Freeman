@@ -1,7 +1,7 @@
 const compile = [
     'tsc source/typescript.ts --outDir build',
     'gcc -o build/c source/c.c',
-    '-main source/Main -lib haxicord -x bin/bot.n'
+    'haxe -main source/Main -lib haxicord -x bin/bot.n'
 ]
 
 const exec = require('child_process').exec
