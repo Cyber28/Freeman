@@ -14,6 +14,10 @@ const commandsRaw = [
     {
         name: 'c',
         execute: 'build/c'
+    },
+    {
+       name: 'haxe',
+       execute: 'build/haxe'
     }
 ]
 
