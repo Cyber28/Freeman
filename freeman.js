@@ -17,7 +17,7 @@ const commandsRaw = [
     },
     {
        name: 'haxe',
-       execute: 'build/haxe'
+       execute: 'neko build/haxe.n.n'
     }
 ]
 
