@@ -18,6 +18,10 @@ const commandsRaw = [
     {
        name: 'haxe',
        execute: 'neko build/haxe.n.n'
+    },
+    {
+       name: 'csharp',
+       execute: 'dotnet build/Program.dll'
     }
 ]
 
