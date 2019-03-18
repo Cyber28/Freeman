@@ -3,3 +3,4 @@ config.json
 build/typescript.js
 build/c
 build/haxe.n.n
+build/Program.dll
