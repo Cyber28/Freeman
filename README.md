@@ -11,6 +11,7 @@ Discord bot made in as many languages as possible
 - Python
 - Haxe (WIP)
 - Neko (WIP)
-- gcc
+- A gcc compiler (that can compile both C and C++)
+- Dart
 #### Setting up and running
 To set up, make sure all requirements are met and that your config.json is configured properly. Run `npm i` to install dependencies, and `node compile.js` to build the files. After the files have been built, run `node freeman.js` to run the bot itself.

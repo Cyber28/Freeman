@@ -18,6 +18,14 @@ const commandsRaw = [
     {
        name: 'haxe',
        execute: 'neko build/haxe.n.n'
+    },
+    {
+        name: 'c++',
+        execute: 'build/cplusplus'
+    },
+    {
+        name : 'dart',
+        execute: 'dart build/dart.dart'
     }
 ]
 
