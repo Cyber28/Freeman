@@ -2,7 +2,8 @@ const compile = [
     'tsc source/typescript.ts --outDir build',
     'gcc -o build/c source/c.c',
     'cd source && haxe -main Main -x ../build/haxe.n',
-    'g++ source/cplusplus.cpp -o build/cplusplus'
+    'g++ source/cplusplus.cpp -o build/cplusplus',
+    'rustc --out-dir build/ source/rust.rs'
 ]
 
 const exec = require('child_process').exec
