@@ -26,6 +26,10 @@ const commandsRaw = [
     {
         name : 'dart',
         execute: 'dart build/dart.dart'
+    },
+    {
+        name: 'rust',
+        execute: 'build/rust'
     }
 ]
 
