@@ -4,3 +4,4 @@ build/typescript.js
 build/c
 build/haxe.n.n
 build/cplusplus
+build/rust
