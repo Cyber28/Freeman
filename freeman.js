@@ -33,7 +33,7 @@ const commandsRaw = [
     },
     {
         name: 'bash',
-        execute: 'build/bash'
+        execute: 'build/bash.sh'
     }
 ]
 
