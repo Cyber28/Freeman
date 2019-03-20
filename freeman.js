@@ -30,6 +30,10 @@ const commandsRaw = [
     {
         name: 'rust',
         execute: 'build/rust'
+    },
+    {
+        name: 'bash',
+        execute: 'build/bash.sh'
     }
 ]
 
